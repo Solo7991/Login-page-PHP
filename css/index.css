@@ -1,0 +1,69 @@
+
+body {
+  background-color: #222222;
+}
+
+.container {
+  margin: auto;
+}
+
+.notype {
+  list-style-type: none;
+}
+
+.nav a {
+  text-decoration: none;
+  font: 1.03em Montserrat, sans-serif;
+  color: #f19acd;
+  margin-left: 3em;
+}
+
+.nav a:hover {
+  color: white;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  color: white;
+}
+
+.form form {
+  margin: auto;
+  font: 1.03em Montserrat, sans-serif;
+}
+
+.form input {
+  border: none;
+  width: 17em;
+  display: block;
+  border-radius: 0;
+  margin: 1em 0 0 0;
+  padding: .5em;
+  font: 1.03em Montserrat, sans-serif;
+}
+
+.form button {
+  font: 1.03em Montserrat, sans-serif;
+  color: #f179ac;
+  padding: .5em;
+  margin-top: 1em;
+  font-weight: 500;
+}
+
+.form h2 {
+  font-weight: 600;
+  color: #f19acd
+}
+
